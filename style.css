@@ -1,0 +1,137 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    background: linear-gradient(90deg,rgb(228, 233, 234),rgb(158, 229, 246));
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+#header{
+    background: linear-gradient(90deg,rgb(5, 247, 211),rgb(84, 126, 250));
+    position: sticky;
+    top: 0;
+    height: 70px;
+    backdrop-filter: blur(20px);
+    z-index: 1000;
+}
+#nav ,ul{
+    display: flex;
+    justify-content: space-between;
+    gap: 25px;
+    color: rgb(119, 245, 245);
+    text-decoration: none;
+    gap: 25px;
+    
+}
+ul{
+    margin-top: 10px;
+    color: black;
+}
+li{
+    display: flex;
+    justify-content: space-between;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+i{
+    color: black;
+    justify-content: center;
+}
+a:hover{
+    color: rgb(2, 118, 108);
+    box-shadow: 0px 1px 50px rgb(207, 2, 2);
+}
+#img1{
+    display: flex;
+    height: 250px;
+    width: 250px;
+    border-radius: 50%;
+    box-shadow: 0px 1px 100px rgb(7, 4, 15);
+    background-size: cover;
+    box-sizing: border-box;
+    border: 15px rgb(109, 31, 3);
+    justify-content: center;
+    justify-self: center;
+    justify-items: center;
+    margin: 30px;
+}
+#img1:hover{
+    box-shadow: 0px 1px 50px rgb(1, 122, 66);
+    padding: 25px ;
+    transition: all 0.5s ease 0.2s;
+
+
+}
+.color{
+    color: rgb(243, 4, 223);
+}
+h1{
+        color: rgb(10, 30, 246);
+
+}
+p{
+        color: rgb(5, 14, 2);
+
+}
+#bio{
+
+    text-align: center;
+    
+
+}
+
+#bio{
+    text-align: center;
+}
+.div{
+    background: rgb(152, 242, 242);
+    padding: 50px;
+    height: 35vh;
+    margin: 10px;
+    border-radius: 30px;
+    box-shadow: 0px 1px 20px rgb(7, 4, 15);
+    border-color: rgb(51, 6, 213);
+
+}
+.div:hover{
+    background: rgb(247, 238, 247);
+    box-shadow: 0px 1px 200px rgba(149, 246, 168, 0.521);
+    transition: all rgb(33, 33, 33);
+}
+footer{
+    background: linear-gradient(90deg,rgb(1, 204, 42),rgb(249, 4, 4));
+    text-align: center;
+    color: rgb(225, 3, 3);
+    margin: 10px;
+}
+.social-links {
+    margin-top: 20px;
+    justify-content: center;
+    justify-self: center;
+    justify-items: center;
+
+}
+
+.social-links a {
+    display: inline-block;
+    margin-right: 15px;  /* Space between icons */
+    font-size: 24px;     /* Size of the icons */
+    color: #ffffff;      /* Icon color (White) */
+    transition: 0.3s;    /* Smooth hover effect */
+    text-decoration: none;
+
+}
+
+/* Change color when you hover over them */
+.social-links a:hover {
+    color: #00bcd4;      /* Change to your theme blue color */
+    transform: scale(1.1); /* Slightly grow the icon */
+}
+.social-links a:hover {
+    color: #ffffff;
+    /* Creates a glowing blue aura around the icon */
+    text-shadow: 0 0 10px #00bcd4, 0 0 20px #00bcd4; 
+    transform: scale(1.1);
+}
